@@ -1,0 +1,52 @@
+body {  font-family: "Square721 BT", Verdana, "Trebuchet MS"; color: #111111; 
+	font-size: small; background-color: #eeeeee;}
+p {font-size: x-small;}
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: small;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+table {border-collapse:collapse;
+}
+.left { font-size:small;}
+.left a:link { color: #222222; }
+.left a:visited {color: #111111;}
+.top a:link { color: #222222; }
+.top a:visited {color: #111111;}
+
+.garment, .outfit, .participant, .episode, .video, .colour, .material, .item, .prefix, .suffix  { color : #220000;
+	background-color: #eeeeee;
+	outline-style: solid; margin: 2;
+	outline-width: thin;
+	}
+	
+.material, .colour, .prefix, .item, .suffix { display: block; width: 100px; float:left}
+
+.left
+{
+	float: left;
+}
+
+.flag {
+	/* for items flagged for attention */
+	background-color: red;
+	font-size: large;
+}
+
+.untimed {
+	/* items with no time recorded */
+	background-color: yellow;
+}
+
+.shortsdesc {
+	background-color: white;
+}
+/* 
+.colour { position: relative; left: 0px; top: 0px; }
+.material { position: absolute; left: 100px; }
+.item { position: relative; left: 200px; top: 0px; }
+*/
